@@ -1,0 +1,26 @@
+p {
+    color: blue;
+}
+b {
+    color: red;
+}
+i {
+    color: pink;
+}
+u {
+    color: orange;
+}
+ul li {
+    color: green;
+}
+ol li {
+    color: purple;
+}
+/* classes css */
+.primeiro_item {
+    color: grey;    
+}
+/* ids css */
+#ultimo_item {
+    color: orange;
+}
