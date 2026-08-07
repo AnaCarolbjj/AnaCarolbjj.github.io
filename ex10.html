@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Exemplo 10</title>
+</head>
+<body>
+    <button id="btn_confirmar">Confirmar</button>
+    <span id="spn_mensagem">....</span>
+    <script>
+    var btn = document.getElementById("btn_confirmar");
+    btn.onclick = function() {
+        // escrevo o que eu quiser!
+        var spn = document.getElementById("spn_mensagem");
+        spn.innerHTML="<b>Texto Alterado!!</b>";
+    }
+    </script>
+
+</body>
+</html>

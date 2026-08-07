@@ -1,0 +1,8 @@
+var spnResultado = document.getElementById("spn_resultado");
+var btnAdicao = document.getElementById("btn_adicao");
+btnAdicao.onclick = function() {
+    var primeiro = document.getElementById("txt_primeiro");
+    var segundo = document.getElementById("txt_segundo");
+    var resultado = parseInt(primeiro.value) + parseInt(segundo.value);
+    spnResultado.innerHTML="<b>"+resultado+"</b>";
+}
